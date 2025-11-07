@@ -1,0 +1,9 @@
+
+State Machine - |vending_top|vending_machine:vm_inst|state
+Name state.ERROR state.DONE state.DISPENSING state.SELECTING state.COIN_IN state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.COIN_IN 0 0 0 0 1 1 
+state.SELECTING 0 0 0 1 0 1 
+state.DISPENSING 0 0 1 0 0 1 
+state.DONE 0 1 0 0 0 1 
+state.ERROR 1 0 0 0 0 1 

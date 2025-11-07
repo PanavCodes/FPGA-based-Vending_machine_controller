@@ -1,0 +1,32 @@
+|vending_top
+clk50 => clk50.IN1
+rst_n => rst_n.IN1
+btn_coin => btn_coin.IN1
+btn_select => btn_select.IN1
+led_ready <= vending_machine:vm_inst.led_ready
+led_busy <= vending_machine:vm_inst.led_busy
+led_done <= vending_machine:vm_inst.led_done
+led_error <= vending_machine:vm_inst.led_error
+
+
+|vending_top|vending_machine:vm_inst
+clk50 => state~1.DATAIN
+rst_n => state~3.DATAIN
+btn_coin => next_state.OUTPUTSELECT
+btn_coin => next_state.OUTPUTSELECT
+btn_coin => next_state.OUTPUTSELECT
+btn_coin => next_state.OUTPUTSELECT
+btn_coin => next_state.OUTPUTSELECT
+btn_coin => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+btn_select => next_state.OUTPUTSELECT
+led_ready <= led_ready.DB_MAX_OUTPUT_PORT_TYPE
+led_busy <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led_done <= led_done.DB_MAX_OUTPUT_PORT_TYPE
+led_error <= led_error.DB_MAX_OUTPUT_PORT_TYPE
+
+
