@@ -23,7 +23,7 @@ This project simulates a vending process using **LEDs and push buttons**, demons
 | Cyclone II EP2C5T144C8N Board | 1 | Main FPGA |
 | Push Buttons | 2 | Coin and Select |
 | LEDs | 4 | State Indicators |
-| Resistors (330 Ω) | 4 | LED current limiters |
+| Resistors (1KΩ) | 4 | LED current limiters |
 | Resistors (10 kΩ) | 2 | Pull-down resistors for buttons |
 | Breadboard & Jumper Wires | — | Connections |
 
