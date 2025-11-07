@@ -23,8 +23,8 @@ This project simulates a vending process using **LEDs and push buttons**, demons
 | Cyclone II EP2C5T144C8N Board | 1 | Main FPGA |
 | Push Buttons | 2 | Coin and Select |
 | LEDs | 4 | State Indicators |
-| Resistors (1KΩ) | 4 | LED current limiters |
-| Resistors (10 kΩ) | 2 | Pull-down resistors for buttons |
+| Resistors (1 KΩ) | 4 | LED current limiters |
+| Resistors (10 KΩ) | 2 | Pull-down resistors for buttons |
 | Breadboard & Jumper Wires | — | Connections |
 
 ---
@@ -84,7 +84,6 @@ This project simulates a vending process using **LEDs and push buttons**, demons
 
 ---
 
-
 ## 🧰 Tools Used
 
 - **Intel Quartus II 13.0 SP1 Web Edition**  
@@ -92,6 +91,19 @@ This project simulates a vending process using **LEDs and push buttons**, demons
 
 ---
 
+## 🔗 References
+
+- [Altera Cyclone II FPGA Family Support – Intel Corporation](https://www.intel.com/content/www/us/en/support/programmable/support-resources/devices/cyclone-ii-support.html)  
+  > Provides data sheets, device information, resources for the Cyclone II family. :contentReference[oaicite:2]{index=2}  
+- [Intel Quartus II Web Edition 13.0 SP1 Download – Intel Corporation](https://www.intel.com/content/www/us/en/software-kit/711791/intel-quartus-ii-web-edition-design-software-version-13-0sp1-for-windows.html)  
+  > Official download page for the version used. :contentReference[oaicite:3]{index=3}  
+- [Altera Cyclone II EP2C5T144 FPGA Board Overview – Digilogic Electrónica (2016)](https://digilogicelectronica.wordpress.com/2016/07/15/altera-cyclone-ii-ep2c5t144-fpga/)  
+  > Hardware reference article.  
+
+> These references were used for hardware and tool information only.  
+> All Verilog design, FSM implementation, and documentation in this repository are original.
+
+---
 
 ## ⚖️ License
 
