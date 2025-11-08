@@ -87,7 +87,6 @@ This project simulates a vending process using **LEDs and push buttons**, demons
 ## 🧰 Tools Used
 
 - **Intel Quartus II 13.0 SP1 Web Edition**  
-- **ModelSim-Altera** (optional for simulation)
 
 ---
 
